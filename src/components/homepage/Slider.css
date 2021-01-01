@@ -1,0 +1,56 @@
+.slider-super p1 {
+    font-weight: 800;
+    font-size: 1rem;
+}
+.slider-super p2 {
+    font-size: 0.8rem;
+}
+.slider-super p3 {
+    font-size: 0.7rem;
+}
+.slider-super p4 {
+    font-size: 0.8rem;
+}
+.rec.rec-arrow:disabled {
+    visibility: hidden;
+}
+.rec.rec-arrow {
+    background-color: #007bff;
+}
+.rec.rec-arrow:hover {
+    background-color: #060b26;
+}
+.slider-span {
+    border-radius: 5px;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #007bff ;
+}
+.slider-span:hover {
+    background-color: #060b26 ;
+}
+.slider-span a{
+    color: white;
+    text-decoration: none;
+}
+.super-slider-container {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+.colored-span {
+    background-color: orange;
+    border-radius: 5px;
+    padding: 4px 4px;
+}
+.slider-gap {
+    margin-top:0.5rem;
+    margin-bottom: 0.5rem;
+}
+.slider-title {
+    margin-bottom: 2rem;
+}
+.slider-title h2 {
+    font-weight: 800;
+}

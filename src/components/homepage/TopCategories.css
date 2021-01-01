@@ -1,0 +1,57 @@
+.super-title h2{
+    font-size: 3rem;
+}
+.super-title {
+    margin-bottom: 2rem;
+}
+.categories-super {
+    margin-bottom: 1rem;
+}
+.btn-super {
+    background-color: #ffffff; 
+     color: black;
+     border: none;
+     font-size: 1.5rem;
+     font-weight: 800;
+}
+.btn-primary:hover {
+    background-color: #060b26; 
+}
+
+.card-p p{
+    font-size: 0.8rem;
+}
+.card-small-text {
+    white-space: nowrap;
+}
+.categories-super-card p1{
+    font-weight: 800;
+    font-size: 1rem;
+}
+.categories-super-card p{
+    font-size: 0.9rem;
+}
+.categories-super-card p3{
+    font-size: 0.7rem;
+}
+.categories-star .checked {
+    color: orange;
+}
+.categories-super-card a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.categories-span {
+    border-radius: 5px;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #007bff ;
+}
+.categories-span:hover {
+    background-color: #060b26 ;
+}
+.categories-super-card {
+    margin-bottom: 1rem;
+}

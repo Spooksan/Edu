@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+.home-quote p{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 3rem;
+}
+
+.home-quote p2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.custom-quote {
+    margin-top:5rem;
+    margin-bottom: 5rem;
+}
+.custom-quote-text {
+    background-color: aquamarine;
+    border-radius: 15px;
+    padding: 10px;
+}
+.custom-quote svg {
+    font-size: 2rem;
+}
