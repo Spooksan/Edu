@@ -5,7 +5,8 @@ import TopCategories from "../components/homepage/TopCategories";
 import Instructor from "../components/homepage/Instructor";
 import Tabs from "../components/homepage/Tabs";
 import Slider from "../components/homepage/Slider";
-import SliderTwo from "../components/homepage/SliderTwo";
+
+import SliderThree from "../components/homepage/SliderThree";
 import Jumbo from "../components/homepage/Jumbo";
 
 function Home() {
@@ -17,7 +18,7 @@ function Home() {
       <Instructor />
       <Tabs />
       <Slider />
-      <SliderTwo />
+      <SliderThree />
       <Jumbo />
     </div>
   );

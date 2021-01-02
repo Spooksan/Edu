@@ -7,10 +7,10 @@ function Instructor() {
   return (
     <Container className="instructor-border">
       <Row className="justify-content-md-center">
-        <Col xs={6} md={4}>
+        <Col xs={12} md={4}>
           <Image src={instructor} fluid />
         </Col>
-        <Col xs={6} md={6} className="instructor-card">
+        <Col xs={12} md={6} className="instructor-card">
           <Card className="instr" style={{ backgroundColor: " #f1e4d0" }}>
             <Card.Body>
               <Card.Title className="instructor-header">

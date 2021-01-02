@@ -17,7 +17,7 @@ function TopCategories() {
         <h2>Top Categories</h2>
       </div>
       <Row>
-        <Col xs={6} md={3} lg={3} className="categories-super">
+        <Col xs={12} md={3} lg={3} className="categories-super">
           <Card>
             <Card.Img variant="top" src={design} />
             <Card.Body>
@@ -25,7 +25,7 @@ function TopCategories() {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={6} md={3} lg={3} className="categories-super">
+        <Col xs={12} md={3} lg={3} className="categories-super">
           <Card>
             <Card.Img variant="top" src={development} />
             <Card.Body>
@@ -33,7 +33,7 @@ function TopCategories() {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={6} md={3} lg={3} className="categories-super">
+        <Col xs={12} md={3} lg={3} className="categories-super">
           <Card>
             <Card.Img variant="top" src={marketing} />
             <Card.Body>
@@ -41,7 +41,7 @@ function TopCategories() {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={6} md={3} lg={3} className="categories-super">
+        <Col xs={12} md={3} lg={3} className="categories-super">
           <Card>
             <Card.Img variant="top" src={music} />
             <Card.Body>
@@ -49,7 +49,7 @@ function TopCategories() {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={6} md={3} lg={3} className="categories-super">
+        <Col xs={12} md={3} lg={3} className="categories-super">
           <Card>
             <Card.Img variant="top" src={business} />
             <Card.Body>
@@ -57,7 +57,7 @@ function TopCategories() {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={6} md={3} lg={3} className="categories-super">
+        <Col xs={12} md={3} lg={3} className="categories-super">
           <Card>
             <Card.Img variant="top" src={it} />
             <Card.Body>
@@ -65,7 +65,7 @@ function TopCategories() {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={6} md={3} lg={3} className="categories-super">
+        <Col xs={12} md={3} lg={3} className="categories-super">
           <Card>
             <Card.Img variant="top" src={personal} />
             <Card.Body>
@@ -73,7 +73,7 @@ function TopCategories() {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={6} md={3} lg={3} className="categories-super">
+        <Col xs={12} md={3} lg={3} className="categories-super">
           <Card>
             <Card.Img variant="top" src={photography} />
             <Card.Body>

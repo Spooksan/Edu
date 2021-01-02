@@ -114,6 +114,7 @@ export default class Responsive extends Component {
             slidesToShow: 1,
             slidesToScroll: 1,
             infinite: true,
+            dots: true,
           },
         },
       ],
@@ -122,7 +123,7 @@ export default class Responsive extends Component {
     return (
       <div className="margin-adjuster">
         <div className="slider-title">
-          <h2>Students Are Viewing </h2>
+          <h2>Most Popular Courses</h2>
         </div>
         <Container>
           <Slider {...settings}>

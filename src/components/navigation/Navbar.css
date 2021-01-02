@@ -112,3 +112,11 @@
     left: 7rem;
     font-size: 2rem;
   }
+
+  /* Smaller than tablet */
+  @media (max-width: 750px) {
+    .logo-icon p {
+      top: 1.8rem;
+      font-size: 0.8rem;
+    }
+  }

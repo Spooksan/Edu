@@ -1,3 +1,11 @@
 .jumbo-super {
     color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 750px) {
+    .jumbo-super h1{
+        font-size: 1.5rem;
+    }
 }

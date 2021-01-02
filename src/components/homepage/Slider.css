@@ -50,7 +50,33 @@
 }
 .slider-title {
     margin-bottom: 2rem;
+    padding-left: 3rem;
 }
 .slider-title h2 {
     font-weight: 800;
+}
+.slider-super {
+    margin-bottom: 2rem;
+}
+@media (max-width: 750px) {
+    .padding-adjuster {
+        padding-right: 9.5rem;
+    }
+}
+@media (min-width: 750px) {
+    .padding-adjuster {
+        padding-right: 4.5rem;
+    }
+}
+@media (max-width: 450px) {
+    .padding-adjuster {
+        padding-right: 5.1rem;
+    }
+}
+
+.margin-adjuster {
+    margin-bottom: 5rem;
+}
+.slick-dots li button:before{
+    font-size: 15px;
 }
