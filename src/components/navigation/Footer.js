@@ -7,7 +7,7 @@ function Footer() {
   return (
     <Jumbotron className="footer-super">
       <div className="footer-icon">
-        <p>HUB</p>
+        <p>HUB Educational Online</p>
       </div>
       <div className="footer-size">
         <Row>
