@@ -14,9 +14,9 @@ function Home() {
     <div className="home">
       <Carousels />
       <Quote />
+      <Tabs />
       <TopCategories />
       <Instructor />
-      <Tabs />
       <Slider />
       <SliderThree />
       <Jumbo />
