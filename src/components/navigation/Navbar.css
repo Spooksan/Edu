@@ -6,7 +6,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    z-index: 2;
+    z-index: 3;
   }
   
   .menu-bars {
@@ -21,17 +21,17 @@
     height: 100vh;
     display: flex;
     justify-content: center;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: -100%;
     transition: 850ms;
-    z-index: 1;
+    z-index: 2;
   }
   
   .nav-menu.active {
     left: 0;
     transition: 350ms;
-    z-index: 1;
+    z-index: 2;
   }
   
   .nav-text {
@@ -118,5 +118,6 @@
     .logo-icon p {
       top: 1.8rem;
       font-size: 0.8rem;
+      margin-left: -15px;
     }
   }

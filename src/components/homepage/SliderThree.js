@@ -93,7 +93,7 @@ export default class Responsive extends Component {
   render() {
     var settings = {
       dots: true,
-      infinite: false,
+      infinite: true,
       speed: 500,
       slidesToShow: 4,
       slidesToScroll: 4,
@@ -156,11 +156,7 @@ export default class Responsive extends Component {
                     <p3>{item.level}</p3>
                   </span>
                 </div>
-                <div className="slider-gap">
-                  <p1>
-                    <span className="colored-span">Lei : {item.rate} /-</span>
-                  </p1>
-                </div>
+                <div className="slider-gap"></div>
                 <span className="slider-span">
                   <a href={item.link}>Find out more</a>
                 </span>

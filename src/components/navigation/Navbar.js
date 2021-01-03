@@ -19,7 +19,7 @@ function Navbar() {
             <FaBars onClick={showSidebar} />
           </Link>
           <div className="logo-icon">
-            <p>HUB</p>
+            <p>HUB Educational Online</p>
           </div>
           <div className="envelop-icon">
             <FaEnvelope />

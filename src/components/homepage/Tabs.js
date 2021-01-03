@@ -2,6 +2,7 @@ import React from "react";
 import { Row, Col, Nav, Tab, Container } from "react-bootstrap";
 import "./Tabs.css";
 import Psychology from "./Psychology";
+import Arts from "./Arts";
 
 function Tabs() {
   return (
@@ -48,7 +49,9 @@ function Tabs() {
               <Tab.Pane eventKey="psychology">
                 <Psychology />
               </Tab.Pane>
-              <Tab.Pane eventKey="arts">Arts content</Tab.Pane>
+              <Tab.Pane eventKey="arts">
+                <Arts />
+              </Tab.Pane>
               <Tab.Pane eventKey="public">Public content</Tab.Pane>
               <Tab.Pane eventKey="languages">Languages content</Tab.Pane>
               <Tab.Pane eventKey="development">Development content</Tab.Pane>
