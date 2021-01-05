@@ -1,7 +1,7 @@
 import React from "react";
 import { Form, Jumbotron, Row, Col } from "react-bootstrap";
 import "./Footer.css";
-import { FaFacebook, FaLinkedin, FaReddit, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaInstagram, FaYoutube } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -54,10 +54,10 @@ function Footer() {
                 <FaLinkedin />
               </span>
               <span>
-                <FaReddit />
+                <FaInstagram />
               </span>
               <span>
-                <FaTwitter />
+                <FaYoutube />
               </span>
             </div>
             <div>

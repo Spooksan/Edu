@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import "./Arts.css";
+import "./TopCategories.css";
 import psycho_one from "../../images/psycho_one.png";
 import psycho_two from "../../images/psycho_two.png";
 import psycho_three from "../../images/psycho_three.png";
@@ -11,8 +11,10 @@ function Arts() {
   return (
     <Container>
       <Row className="categories-super-card">
-        <Col xs={12} lg={4} className="arts-margin">
+        <Col xs={4} lg={4}>
           <Image src={psycho_one} fluid />
+        </Col>
+        <Col xs={8} lg={8}>
           <div>
             <p1>Gamification: Motivation Arts & The Art of Engagement</p1>
           </div>
@@ -61,12 +63,13 @@ function Arts() {
             </span>
           </div>
         </Col>
-
-        <hr />
-
-        <Col xs={12} lg={4} className="arts-margin">
+      </Row>
+      <hr />
+      <Row className="categories-super-card">
+        <Col xs={4} lg={4}>
           <Image src={psycho_two} fluid />
-
+        </Col>
+        <Col xs={8} lg={8}>
           <div>
             <p1>Arts of Diversity and Unconscious Bias</p1>
           </div>
@@ -115,11 +118,13 @@ function Arts() {
             </span>
           </div>
         </Col>
-
-        <hr />
-
-        <Col xs={12} lg={4} className="arts-margin">
+      </Row>
+      <hr />
+      <Row className="categories-super-card">
+        <Col xs={4} lg={4}>
           <Image src={psycho_three} fluid />
+        </Col>
+        <Col xs={8} lg={8}>
           <div>
             <p1>Diploma in Modern Applied Arts (DMAP.)</p1>
           </div>
@@ -168,63 +173,13 @@ function Arts() {
             </span>
           </div>
         </Col>
-
-        <hr />
-
-        <Col xs={12} lg={4} className="arts-margin">
+      </Row>
+      <hr />
+      <Row className="categories-super-card">
+        <Col xs={4} lg={4}>
           <Image src={psycho_four} fluid />
-          <div>
-            <p1>Be Happier with Positive Arts</p1>
-          </div>
-          <div>
-            <p>
-              Learn how to motivate and engage anyone by learning the Arts that
-              underpins human behaviour.
-            </p>
-          </div>
-          <div>
-            <span>
-              <p3>Rob Sutcliffe</p3>
-            </span>
-          </div>
-          <div className="categories-star">
-            <span className="checked">
-              <FaStar />
-            </span>
-            <span className="checked">
-              <FaStar />
-            </span>
-            <span className="checked">
-              <FaStar />
-            </span>
-            <span className="checked">
-              <FaStar />
-            </span>
-            <span>
-              <FaStar />
-            </span>
-          </div>
-          <div>
-            <span>
-              <p3>3 total hours</p3>
-            </span>
-            <span>
-              <p3>46 lectures</p3>
-            </span>
-            <span>
-              <p3>All levels</p3>
-            </span>
-          </div>
-          <div>
-            <span className="categories-span">
-              <a href="#">Find out more</a>
-            </span>
-          </div>
         </Col>
-
-        <hr />
-        <Col xs={12} lg={4} className="arts-margin">
-          <Image src={psycho_four} fluid />
+        <Col xs={8} lg={8}>
           <div>
             <p1>Be Happier with Positive Arts</p1>
           </div>
@@ -274,6 +229,7 @@ function Arts() {
           </div>
         </Col>
       </Row>
+      <hr />
     </Container>
   );
 }

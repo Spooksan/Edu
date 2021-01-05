@@ -18,8 +18,8 @@ function Instructor() {
               </Card.Title>
               <Card.Text>
                 Top instructors from around the world teach millions of students
-                on Udemy. We provide the tools and skills to teach what you
-                love.
+                on HUB Educational Online. We provide the tools and skills to
+                teach what you love.
               </Card.Text>
               <Button variant="primary">Start Teaching Today</Button>
             </Card.Body>
